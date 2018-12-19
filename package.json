@@ -1,0 +1,32 @@
+{
+  "name": "ecommerce_front",
+  "version": "1.0.0",
+  "description": "ecommerce based in nodes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel de Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "@types/method-override": "0.0.31",
+    "@types/morgan": "^1.7.35",
+    "body-parser": "^1.18.3",
+    "del": "^3.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.1",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.1",
+    "node-neat": "^2.0.0-beta.0"
+  }
+}

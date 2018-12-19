@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce_front",
+  "description": "ecommerce based in nodes",
+  "main": "app.js",
+  "authors": [
+    "Daniel de Almeida"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ecommerce",
+    "node.js",
+    "mongodb",
+    "ejs",
+    "js"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  }
+}
