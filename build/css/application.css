@@ -1,5 +1,92 @@
+html {
+  height: 100%;
+  min-height: 100%; }
+
 body {
-  background: red;
-  margin: 0px;
-  padding: 0px;
-  font-size: 14px; }
+  height: 100%;
+  min-height: 100%;
+  background: #fefefe; }
+
+.btn-red-default {
+  background-color: #FE2740;
+  color: #f1f1f1; }
+  .btn-red-default:hover, .btn-red-default:active {
+    background-color: #ed283b;
+    color: #f1f1f1;
+    transition: .3s all; }
+
+.upper {
+  text-transform: uppercase !important; }
+
+#header {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  background: #fefefe; }
+  #header .logo {
+    z-index: 3;
+    padding: 4rem 0; }
+    #header .logo img {
+      width: 13em; }
+  #header .account {
+    padding: 7rem 0 0 0;
+    z-index: 3; }
+    #header .account .shopping {
+      border-left: 1px solid #ed283b; }
+  #header .navbar {
+    min-height: 4em;
+    z-index: 1;
+    background: #FE2740;
+    border: none; }
+    #header .navbar .navbar-nav li a {
+      color: #f1f1f1;
+      text-transform: uppercase;
+      font-weight: bold; }
+      #header .navbar .navbar-nav li a:hover, #header .navbar .navbar-nav li a:active {
+        color: #000000; }
+  #header .carousel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    min-height: 100%; }
+    #header .carousel .carousel-inner {
+      height: 100%;
+      min-height: 100%; }
+      #header .carousel .carousel-inner .item {
+        height: 100%;
+        min-height: 100%; }
+      #header .carousel .carousel-inner .fill {
+        height: 100%;
+        min-height: 100%;
+        background-size: cover;
+        background-position: center; }
+      #header .carousel .carousel-inner .caroulse-caption {
+        bottom: 25%;
+        left: 15%;
+        right: 15%; }
+        #header .carousel .carousel-inner .caroulse-caption h2 {
+          color: #6f6f6f;
+          font-weight: bold; }
+        #header .carousel .carousel-inner .caroulse-caption p {
+          color: #2f2f2f;
+          font-size: 1.5em;
+          padding: 1em 0; }
+    #header .carousel .carousel-control.left {
+      background: none; }
+      #header .carousel .carousel-control.left i {
+        position: absolute;
+        top: 50%;
+        z-index: 5;
+        display: inline-block;
+        font-size: 4em; }
+    #header .carousel .carousel-control.right {
+      background: none; }
+      #header .carousel .carousel-control.right i {
+        position: absolute;
+        top: 50%;
+        z-index: 5;
+        display: inline-block;
+        font-size: 4em; }
