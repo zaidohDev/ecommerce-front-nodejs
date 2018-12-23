@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700");
 html {
   height: 100%;
   min-height: 100%;
@@ -21,19 +21,39 @@ h1, h2, h3, h4, h5, h6 {
     color: #f1f1f1;
     transition: .3s all; }
 
+.form-control:focus, .form-control:active, .form-control:hover {
+  box-shadow: none;
+  border-color: #292929; }
+
+.btn-red-dark-default {
+  background-color: #ed283b;
+  color: #f1f1f1; }
+  .btn-red-dark-default:hover, .btn-red-dark-default:active {
+    background-color: #FE2740;
+    color: #f1f1f1;
+    transition: .3s all; }
+
 .upper {
   text-transform: uppercase !important; }
 
 .title {
   font-size: 1.5em; }
-  .title.bold {
-    font-weight: bold; }
+
+.subtitle {
+  padding: 0 0 1.5em 0;
+  display: block; }
+
+.bold {
+  font-weight: bold; }
 
 #header {
   position: relative;
   height: 100%;
   min-height: 100%;
   background: #fefefe; }
+  #header.no-height {
+    height: auto;
+    min-height: auto; }
   #header .logo {
     z-index: 3;
     padding: 4rem 0; }
@@ -154,3 +174,47 @@ h1, h2, h3, h4, h5, h6 {
         #products .list_pro .product_item .info .price strong {
           display: block;
           padding: 1em 0; }
+
+#line {
+  position: relative;
+  width: 100%;
+  height: 8em;
+  background: #ed283b; }
+
+#steps {
+  text-align: center;
+  padding: 2em 0; }
+  #steps .title {
+    padding: 0 0 1em 0; }
+  #steps .step i {
+    width: 3em;
+    height: 3em;
+    font-size: 2.5em;
+    border-radius: 50%;
+    color: #f1f1f1; }
+    #steps .step i.one {
+      background: #FF8C69;
+      padding: 1em; }
+      #steps .step i.one:hover, #steps .step i.one:active {
+        background-color: #f1f1f1;
+        color: #CD0000;
+        transition: .3s all; }
+    #steps .step i.two {
+      background: #FF4040;
+      padding: 1em; }
+      #steps .step i.two:hover, #steps .step i.two:active {
+        background-color: #f1f1f1;
+        color: #CD0000;
+        transition: .3s all; }
+    #steps .step i.three {
+      background: #ed283b;
+      padding: 1em; }
+      #steps .step i.three:hover, #steps .step i.three:active {
+        background-color: #f1f1f1;
+        color: #CD0000;
+        transition: .3s all; }
+  #steps .step h4 {
+    color: #292929;
+    padding: 0.5em 0; }
+  #steps .step p {
+    color: #333333; }

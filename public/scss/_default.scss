@@ -24,13 +24,32 @@ h1, h2, h3, h4, h5, h6{
 		transition: .3s all;
 	}
 }
+.form-control{
+	&:focus, &:active, &:hover{
+		box-shadow: none;
+		border-color: $font-color-default;
+	}
+}
+.btn-red-dark-default {
+	background-color: $red-dark-default;
+	color: $white-default;
+	&:hover, &:active {
+		background-color: $red-default;
+		color: $white-default;
+		transition: .3s all;
+	}
+}
 
 .upper {
 	text-transform: uppercase !important;
 }
 .title{
-	font-size: 1.5em;
-	&.bold{
-		font-weight: bold;
-	}	
+	font-size: 1.5em;		
+}
+.subtitle{
+	padding:0 0 1.5em 0;
+	display: block;		
+}
+.bold{
+	font-weight: bold;
 }

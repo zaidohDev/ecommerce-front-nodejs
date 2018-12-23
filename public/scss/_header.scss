@@ -3,6 +3,10 @@
 	height: 100%;
 	min-height: 100%;
 	background: $body-bg;
+	&.no-height{
+		height: auto;
+		min-height: auto;
+	}
 	.logo {
 		z-index: 3;
 		padding: 4rem 0;
