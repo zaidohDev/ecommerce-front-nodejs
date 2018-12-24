@@ -218,3 +218,34 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.5em 0; }
   #steps .step p {
     color: #333333; }
+
+#product-details .img-preview img {
+  width: 38em;
+  height: 23em;
+  max-height: 23em; }
+
+#product-details .product-info {
+  margin: 2em 0; }
+  #product-details .product-info h1 {
+    padding: 0; }
+  #product-details .product-info .pay-info p {
+    display: inline-block;
+    padding: 1em 0; }
+    #product-details .product-info .pay-info p strong {
+      font-size: 3em;
+      color: #ed283b; }
+  #product-details .product-info .other-info .list-group {
+    margin: 0 0 1em 0; }
+    #product-details .product-info .other-info .list-group .list-group-item {
+      border: none;
+      text-align: left;
+      padding: 0; }
+      #product-details .product-info .other-info .list-group .list-group-item label {
+        color: #292929; }
+      #product-details .product-info .other-info .list-group .list-group-item span {
+        color: #ed283b; }
+  #product-details .product-info .pay-action .btn-add-cart {
+    padding: 12px 12px; }
+
+#product-details .description {
+  margin: 3em 0; }

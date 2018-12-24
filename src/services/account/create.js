@@ -26,10 +26,10 @@ module.exports = (req, res) => {
 
 	Customer.register(data, req.body.password, (error, account) => {
 		if (error) {
-			console.log(error)
+			
 			return res.redirect('/')
 		}
-		    console.log(data)
+		    
 		return res.redirect('/account')
 	})
 }

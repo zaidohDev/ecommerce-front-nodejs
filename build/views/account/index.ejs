@@ -10,21 +10,22 @@
             <div class="col-xs-12 col-md-6">
                 <h4 class="title upper bold">Log in account</h4>
                 <span class="subtitle">Log in account</span>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" class="form-control" placeholder="Enter your email">
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" class="form-control" placeholder="Enter your password">
-                </div>
-                <div class="form-group">
-                    <a href="#">Forget your password?</a>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-red-dark-default">Log in</button>
-                </div>
-
+                <form action="/account/login" method="POST">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" class="form-control" placeholder="Enter your password">
+                    </div>
+                    <div class="form-group">
+                        <a href="#">Forget your password?</a>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-red-dark-default">Log in</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

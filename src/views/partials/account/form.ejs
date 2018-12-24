@@ -9,6 +9,8 @@
 	<input type="text" name="name" class="form-control" placeholder="Enter you full name" value="<%= customer.name %>">
 </div>
 
+<input type="hidden" name="_id" value="<%=customer.id%>" >
+
 <div class="form-group">
 	<label for="email">Email</label>
 	<input type="email" name="email" class="form-control" placeholder="Enter a valid email" value="<%= customer.email %>">
