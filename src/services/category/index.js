@@ -1,23 +1,22 @@
 const Category = require('./../../schemas/category')
-
 module.exports = (req, res)=>{
-    
+
     Category
-        .findById(req.params.id)
-        .then((category)=>{
-            if (!category) {
+        .find({})
+        .then((categories) =>{
+            if (!categories) {
                 return res.redirect('/category')
             }
-            return res.render('category/show', {
-                title: 'Category',
+
+            return res.render('category/index', {
+                title: 'Admin Ecommerce',
                 layout: 'layouts/main',
                 user: req.user || undefined,
-                category
+                categories
         })
+
+    })
         .catch((error)=>{
             return res.redirect('/category')
         })
-    
-    })
-
 }

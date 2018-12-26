@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce_front",
+  "name": "ecommerce_admin",
   "description": "ecommerce based in nodes",
   "main": "app.js",
   "authors": [

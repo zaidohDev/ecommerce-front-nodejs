@@ -11,7 +11,7 @@ const mongoose          = require('mongoose')
 const expressSession    = require('express-session')
 
 module.exports = (app) => {
-    app.set('port', 9000)
+    app.set('port', 9001)
     app.set('views', path.join(__dirname, './../../../build/views'))
     app.set('view engine', 'ejs')
     app.set('layout extractSripts', true)
